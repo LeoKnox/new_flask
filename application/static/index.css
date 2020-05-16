@@ -1,0 +1,32 @@
+body {
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.nav_li {
+    float: left;
+}
+
+.nav_li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.nav_li a:hover {
+    background-color: #555555;
+}
+
+.active {
+    background-color: darkblue;
+}
