@@ -5,8 +5,22 @@ body {
     margin: 0;
 }
 
+.dungeon_info {
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
 .dungeon_map {
     float: left;
+    padding-right: 25px;
+}
+
+.room_edit {
+    padding: 10px 16px;
+    background-color: blue;
+    color: lightcyan;
+    text-decoration: none;
 }
 
 h1 {
