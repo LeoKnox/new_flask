@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+.dungeon_map {
+    float: left;
+}
+
 h1 {
     margin-left: 15px;
 }
@@ -35,4 +39,11 @@ h1 {
 
 .active {
     background-color: darkblue;
+}
+
+footer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 0;
 }

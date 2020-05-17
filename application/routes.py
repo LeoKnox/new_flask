@@ -12,7 +12,8 @@ def dungeon():
 
 @app.route("/room")
 def room():
-    return render_template("room.html", room="active")
+    room_data = {"room_name":"Entry", "length":5, "width":5}
+    return render_template("room.html", room="active", info=room_data)
 
 @app.route("/map")
 def map():

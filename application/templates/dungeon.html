@@ -2,4 +2,16 @@
 
 {% block content %}
 <h1>Dungeon Page</h1>
+<div class="dungeon_map">
+    <h3>Map</h3>
+{% for i in range(40) %}
+    {% for j in range(100) %}
+    .
+    {% endfor %}
+    <br>
+{% endfor %}
+</div>
+<div class="dungeon_info">
+    <h3>Info</h3>
+</div>
 {% endblock %}

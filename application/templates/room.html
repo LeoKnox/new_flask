@@ -2,4 +2,23 @@
 
 {% block content %}
 <h1>Room Page</h1>
+<p>Room Name: {{info.room_name}}</p>
+_
+{%- for x in range(info.width) -%}
+    _
+{%- endfor -%}
+<br>
+{%- for i in range(info.width) -%}
+    |
+    {%- for j in range(info.length) %}
+        <label>.</label>
+    {% endfor -%}
+    |
+    <br>
+{%- endfor -%}
+_
+{%- for x in range(info.width) -%}
+_
+{%- endfor -%}
+<br>
 {% endblock %}
