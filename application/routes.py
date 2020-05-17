@@ -17,7 +17,10 @@ def dungeon():
 
 @app.route("/room/")
 @app.route("/room/<room_name>")
-def room(room_name="entry"):
+def room(room_name="Entry"):
+    if not room_name:
+        room_name="Entry"
+    print(room_name)
     info = [
         {"room_name":"Entry","length":5,"width":5},
         {"room_name":"Storage","length":9,"width":7},
