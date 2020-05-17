@@ -20,6 +20,9 @@
             <label>{{ value }}</label>
             </p>
         {% endfor %}
+        <button>
+            <a href="{{url_for('room')}}{{item.room_name}}">Edit</a>
+        </button>
     {% endfor %}
     </div>
 </div>
