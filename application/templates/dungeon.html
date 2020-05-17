@@ -13,5 +13,14 @@
 </div>
 <div class="dungeon_info">
     <h3>Info</h3>
+    <div class="info">
+    {% for item in info %}
+        {% for key, value in item.items() %}
+            <p>{{ key.capitalize() }}:
+            <label>{{ value }}</label>
+            </p>
+        {% endfor %}
+    {% endfor %}
+    </div>
 </div>
 {% endblock %}
